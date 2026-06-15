@@ -1,0 +1,21 @@
+{
+  "Name": "Narrative Reward",
+  "Authors": [
+    "Stacey-Jane Harris",
+    "Cameron D. Hassall"
+  ],
+  "License": "CC0",
+  "DatasetType": "raw",
+  "DatasetDOI": "",
+  "ReferencesAndLinks": [
+    ""
+  ],
+  "BIDSVersion": "1.8.0",
+  "HEDVersion": "8.1.0",
+  "GeneratedBy": [
+    {
+      "Name": "EEG-BIDS",
+      "Version": "10.3"
+    }
+  ]
+}
