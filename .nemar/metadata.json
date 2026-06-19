@@ -1,30 +1,86 @@
 {
   "version": "2.0",
-  "dataset_id": "on007968",
-  "source": "openneuro",
-  "source_id": "ds007968",
+  "pipeline_stage": "enriched",
   "title": "Narrative Reward",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Stacey-Jane Harris": {},
     "Cameron D. Hassall": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007968.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007968",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007968",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "beh",
     "eeg"
   ],
-  "datatypes": [
-    "beh",
-    "eeg"
-  ]
+  "resource_type_specific": "Neuroimaging Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".JPG",
+    ".csv",
+    ".eeg",
+    ".jpg",
+    ".json",
+    ".m",
+    ".md",
+    ".mexw64",
+    ".png",
+    ".pptx",
+    ".tsv",
+    ".txt",
+    ".vhdr",
+    ".vmrk",
+    ".xlsx"
+  ],
+  "description": "This dataset comprises electroencephalography (EEG) recordings from 40 participants engaged in an interactive narrative task involving decision-making and feedback processing. Participants read a story with hierarchically-blocked narrative contexts, making yes/no decisions about items and receiving correctness feedback. The study contrasts narrative-rich conditions, where contextual information was provided at location transitions and sub-locations, with non-narrative conditions lacking such context. The experimental design explores how narrative framing influences neural responses to decision-making and reward feedback.",
+  "methods_description": "EEG data were collected while participants performed an interactive narrative task. Participants made yes/no decisions about items presented with or without narrative context, and received feedback indicating decision correctness. Narrative trials were hierarchically organized across three locations, each containing three sub-locations with six items each. Narrative context was provided upon entering/leaving locations and before each sub-location in the narrative condition.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "narrative"
+    },
+    {
+      "term": "decision-making"
+    },
+    {
+      "term": "reward feedback"
+    },
+    {
+      "term": "context effects"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "hierarchical context"
+    },
+    {
+      "term": "feedback processing"
+    },
+    {
+      "term": "behavioral data"
+    }
+  ],
+  "source_hash": "4841db7d9d008bd77b4598bc01689b6dfb8209c0cb23bf657568ba0dc34022b4"
 }
