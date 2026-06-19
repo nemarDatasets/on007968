@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Narrative Reward",
-  "description": "This dataset comprises EEG recordings from 40 participants engaged in an interactive narrative task involving decision-making and feedback processing. Participants read a story with hierarchically-blocked decision points where they evaluated items and received correctness feedback, with narrative context provided in blocked trials but absent in control trials. The study investigates how narrative context modulates neural responses to decision-making and reward feedback.",
-  "methods_description": "EEG data were collected while participants performed an interactive narrative task. Participants made yes/no decisions about items presented with or without narrative context. Narrative trials were hierarchically blocked, with context provided at location entry/exit and before sub-locations. Three locations were visited, each containing three sub-locations with 6 items each.",
+  "description": "This dataset comprises EEG recordings from 40 participants engaged in an interactive narrative task involving decision-making and feedback processing. Participants read a story with hierarchically-blocked decision points where they evaluated items and received correctness feedback, with experimental manipulation of narrative context presence. The study examines neural correlates of reward processing and decision-making within narrative versus non-narrative conditions across three locations with nested sub-locations.",
+  "methods_description": "EEG data were collected while participants performed an interactive narrative task. Participants made yes/no decisions about items presented with or without narrative context, and received feedback indicating correct or incorrect responses. Narrative context was provided hierarchically at location entry/exit points and before each sub-location. The experimental design included three locations, each containing three sub-locations with 6 items each.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,13 +15,13 @@
       "term": "EEG"
     },
     {
-      "term": "narrative"
-    },
-    {
-      "term": "reward"
+      "term": "reward processing"
     },
     {
       "term": "decision-making"
+    },
+    {
+      "term": "narrative context"
     },
     {
       "term": "feedback processing"
