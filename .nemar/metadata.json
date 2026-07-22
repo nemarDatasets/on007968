@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Narrative Reward",
-  "description": "This dataset comprises EEG recordings from 40 participants engaged in an interactive narrative task involving decision-making and feedback processing. Participants read a story with hierarchically-blocked decision points where they evaluated items and received correctness feedback, with experimental manipulation of narrative context presence. The study examines neural correlates of reward processing and decision-making within narrative versus non-narrative conditions across three locations with nested sub-locations.",
+  "description": "This dataset comprises EEG recordings from 40 participants engaged in an interactive narrative task involving decision-making and feedback processing. Participants read a story with hierarchically-blocked decision points where they evaluated items and received correctness feedback, with experimental manipulation of narrative context presence. The study examines neural correlates of reward processing and decision-making within narrative versus non-narrative conditions across three locations with multiple sub-locations.",
   "methods_description": "EEG data were collected while participants performed an interactive narrative task. Participants made yes/no decisions about items presented with or without narrative context, and received feedback indicating correct or incorrect responses. Narrative context was provided hierarchically at location entry/exit points and before each sub-location. The experimental design included three locations, each containing three sub-locations with 6 items each.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -37,14 +37,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007968",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds007968.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007968",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
@@ -54,7 +54,7 @@
     "eeg"
   ],
   "sizes": [
-    "0.0 KB (473 files)"
+    "3.1 GB (473 files)"
   ],
   "formats": [
     ".JPG",
